@@ -1,23 +1,34 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+
+    <!-- FIX: GitHub Pages redirect to HashRouter -->
     <script>
       if (location.pathname === "/goyatra-app/") {
         location.replace("/goyatra-app/#/");
       }
     </script>
-    <meta charset="UTF-8" />
+
+    <!-- FIX: relative path -->
     <link rel="icon" href="./favicon.svg" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- icons -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>goyatra</title>
     <script type="module" crossorigin src="/goyatra-app/assets/index-DbYe5CAV.js"></script>
     <link rel="stylesheet" crossorigin href="/goyatra-app/assets/index-BZHEjaIB.css">
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- IMPORTANT: keep this EXACT -->
   </body>
 </html>
